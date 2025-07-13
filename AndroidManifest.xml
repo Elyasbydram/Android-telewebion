@@ -1,5 +1,7 @@
  <application>
-<uses-permission android:name="android.permission.INTERNET"/> <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <uses-permission android:name="android.permission.WAKE_LOCK"/> <uses-permission android:name="com.android.vending.BILLING"/> <uses-permission android:name="android.permission.VIBRATE"/> <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/> <uses-permission android:name="android.permission.REORDER_TASKS"/> توضیح (مطابق با اسکرین شات شما): <uses-permission android:name="android.permission.INTERNET"/> <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <uses-permission android:name="android.permission.WAKE_LOCK"/> <uses-permission android:name="com.android.vending.BILLING"/> <uses-permission android:name="android.permission.VIBRATE"/> <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/> <uses-permission android:name="android.permission.REORDER_TASKS"/>
+ <manifest>
+
+ <uses-permission android:name="android.permission.INTERNET"/> <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <uses-permission android:name="android.permission.WAKE_LOCK"/> <uses-permission android:name="com.android.vending.BILLING"/> <uses-permission android:name="android.permission.VIBRATE"/> <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/> <uses-permission android:name="android.permission.REORDER_TASKS"/> توضیح (مطابق با اسکرین شات شما): <uses-permission android:name="android.permission.INTERNET"/> <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <uses-permission android:name="android.permission.WAKE_LOCK"/> <uses-permission android:name="com.android.vending.BILLING"/> <uses-permission android:name="android.permission.VIBRATE"/> <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/> <uses-permission android:name="android.permission.REORDER_TASKS"/>
 
 - اینترنت → INTERNET
 - خواندن وضعیت روشن/خاموش بودن wifi → ACCESS_WIFI_STATE
@@ -7,7 +9,7 @@
 - خواندن حافظه گوشی → READ_EXTERNAL_STORAGE (برای اندروید 10 و بالاتر، برای سازگاری بهتر از Storage Access Framework استفاده کنید)
 - دریافت خبر بوت شدن دستگاه → RECEIVE_BOOT_COMPLETED
 - بیدار نگه داشتن دستگاه → WAKE_LOCK
--  پرداخت درون برنامه ای مایکت و بازار→ com.android.vending.BILLING
+- پرداخت درون برنامه ای مایکت → com.android.vending.BILLING
 - لرزش دستگاه → VIBRATE
 - ارسال نوتیفیکیشن → POST_NOTIFICATIONS
-- تغییر ترتیب تسک‌های دستگاه → REORDER_TASKS
+- تغییر ترتیب تسک‌های دستگاه → REORDER_TASK  
