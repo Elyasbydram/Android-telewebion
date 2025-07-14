@@ -12,6 +12,11 @@
  <application
         ...>
         <!-- Your activities and configuration -->
-      android:icon="@mipmap/ic_launcher" android:label="YourAppName" ...>
+      android:icon="@mipmap/ic_launcher"
+- mipmap-mdpi: ۴۸x۴۸ پیکسل
+- mipmap-hdpi: 72x72 پیکسل
+- mipmap-xhdpi: 96x96 پیکسل
+- mipmap-xxhdpi: 144x144 پیکسل
+- mipmap-xxxhdpi: 192x192 پیکسل" ...>
     </application>
 </manifest>
