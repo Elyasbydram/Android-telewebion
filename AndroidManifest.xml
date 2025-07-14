@@ -12,5 +12,6 @@
  <application
         ...>
         <!-- Your activities and configuration -->
+      android:icon="@mipmap/ic_launcher" android:label="YourAppName" ...>
     </application>
 </manifest>
