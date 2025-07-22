@@ -12,7 +12,8 @@
  <application
         ...>
         <!-- Your activities and configuration -->
-      android:icon="@mipmap/ic_launcher"
+      
+android:icon="@mipmap/ic_launcher""
 - mipmap-mdpi: ۴۸x۴۸ پیکسل
 - mipmap-hdpi: 72x72 پیکسل
 - mipmap-xhdpi: 96x96 پیکسل
